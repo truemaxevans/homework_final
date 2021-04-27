@@ -19,6 +19,7 @@ import users.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', users.views.index),
     path('add_user/', users.views.add_user),
 
 ]
